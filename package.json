@@ -1,0 +1,15 @@
+{
+  "name": "@labshare/ls-font",
+  "version": "0.0.1",
+  "description": "Labshare icons font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabShare/ls-font.git"
+  },
+  "author": "artemnih",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LabShare/ls-font/issues"
+  },
+  "homepage": "https://github.com/LabShare/ls-font#readme"
+}
