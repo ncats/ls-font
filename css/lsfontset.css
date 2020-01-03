@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'lsfontset';
-  src: url('../font/lsfontset.eot?69601785');
-  src: url('../font/lsfontset.eot?69601785#iefix') format('embedded-opentype'),
-       url('../font/lsfontset.woff2?69601785') format('woff2'),
-       url('../font/lsfontset.woff?69601785') format('woff'),
-       url('../font/lsfontset.ttf?69601785') format('truetype'),
-       url('../font/lsfontset.svg?69601785#lsfontset') format('svg');
+  src: url('../font/lsfontset.eot?68460445');
+  src: url('../font/lsfontset.eot?68460445#iefix') format('embedded-opentype'),
+       url('../font/lsfontset.woff2?68460445') format('woff2'),
+       url('../font/lsfontset.woff?68460445') format('woff'),
+       url('../font/lsfontset.ttf?68460445') format('truetype'),
+       url('../font/lsfontset.svg?68460445#lsfontset') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'lsfontset';
-    src: url('../font/lsfontset.svg?69601785#lsfontset') format('svg');
+    src: url('../font/lsfontset.svg?68460445#lsfontset') format('svg');
   }
 }
 */
@@ -28,6 +28,8 @@
  
   display: inline-block;
   text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
  
@@ -37,6 +39,10 @@
  
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
  
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -49,40 +55,59 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-drop-arrow:before { content: '\e800'; } /* '' */
-.icon-UserIcon:before { content: '\e801'; } /* '' */
-.icon-SettingsIcon:before { content: '\e802'; } /* '' */
-.icon-Upload:before { content: '\e803'; } /* '' */
-.icon-Download:before { content: '\e804'; } /* '' */
-.icon-NewFolder:before { content: '\e805'; } /* '' */
-.icon-UploadFolder:before { content: '\e806'; } /* '' */
-.icon-arrow:before { content: '\e808'; } /* '' */
-.icon-LsStorageIcon:before { content: '\e809'; } /* '' */
-.icon-OpenFolder:before { content: '\e80a'; } /* '' */
-.icon-MoveTo:before { content: '\e80b'; } /* '' */
-.icon-Copy:before { content: '\e80c'; } /* '' */
-.icon-Trash:before { content: '\e80d'; } /* '' */
-.icon-AddDriver:before { content: '\e80e'; } /* '' */
-.icon-RemoveDriver:before { content: '\e80f'; } /* '' */
-.icon-WordDoc:before { content: '\e810'; } /* '' */
-.icon-exceldoc:before { content: '\e811'; } /* '' */
-.icon-ppticon:before { content: '\e812'; } /* '' */
-.icon-PDFIcon:before { content: '\e813'; } /* '' */
-.icon-Menu:before { content: '\e814'; } /* '' */
-.icon-Teams:before { content: '\e815'; } /* '' */
-.icon-FOTSApp:before { content: '\e817'; } /* '' */
-.icon-Groups:before { content: '\e818'; } /* '' */
-.icon-Manage:before { content: '\e81a'; } /* '' */
-.icon-AppsList:before { content: '\e81b'; } /* '' */
-.icon-TileView:before { content: '\e81c'; } /* '' */
-.icon-ListView:before { content: '\e81d'; } /* '' */
-.icon-Polus:before { content: '\e820'; } /* '' */
-.icon-Edit:before { content: '\e822'; } /* '' */
-.icon-notification:before { content: '\e823'; } /* '' */
-.icon-Share:before { content: '\e824'; } /* '' */
-.icon-Book:before { content: '\e825'; } /* '' */
-.icon-Folder:before { content: '\e826'; } /* '' */
-.icon-Search:before { content: '\e828'; } /* '' */
-.icon-Star:before { content: '\e829'; } /* '' */
-.icon-Pages:before { content: '\e82b'; } /* '' */
-.icon-File:before { content: '\e82c'; } /* '' */
+.icon-lsi-add-drive:before { content: '\e800'; } /* '' */
+.icon-lsi-add-folder:before { content: '\e801'; } /* '' */
+.icon-lsi-add:before { content: '\e802'; } /* '' */
+.icon-lsi-annotate:before { content: '\e803'; } /* '' */
+.icon-lsi-applications:before { content: '\e804'; } /* '' */
+.icon-lsi-auth:before { content: '\e805'; } /* '' */
+.icon-lsi-back-level:before { content: '\e806'; } /* '' */
+.icon-lsi-bell:before { content: '\e807'; } /* '' */
+.icon-lsi-camera:before { content: '\e808'; } /* '' */
+.icon-lsi-data:before { content: '\e809'; } /* '' */
+.icon-lsi-download-file:before { content: '\e80b'; } /* '' */
+.icon-lsi-edit:before { content: '\e80c'; } /* '' */
+.icon-lsi-ellipsis:before { content: '\e80d'; } /* '' */
+.icon-lsi-excel:before { content: '\e80e'; } /* '' */
+.icon-lsi-expand:before { content: '\e80f'; } /* '' */
+.icon-lsi-export:before { content: '\e810'; } /* '' */
+.icon-lsi-filter:before { content: '\e811'; } /* '' */
+.icon-lsi-folder-upload:before { content: '\e812'; } /* '' */
+.icon-lsi-folder:before { content: '\e813'; } /* '' */
+.icon-lsi-form:before { content: '\e814'; } /* '' */
+.icon-lsi-group-level:before { content: '\e815'; } /* '' */
+.icon-lsi-groups:before { content: '\e816'; } /* '' */
+.icon-lsi-guide:before { content: '\e817'; } /* '' */
+.icon-lsi-hierarchy:before { content: '\e818'; } /* '' */
+.icon-lsi-info:before { content: '\e819'; } /* '' */
+.icon-lsi-instrumentation:before { content: '\e81a'; } /* '' */
+.icon-lsi-levels:before { content: '\e81c'; } /* '' */
+.icon-lsi-list-filter:before { content: '\e81d'; } /* '' */
+.icon-lsi-list-search:before { content: '\e81e'; } /* '' */
+.icon-lsi-list-view:before { content: '\e81f'; } /* '' */
+.icon-lsi-lists:before { content: '\e820'; } /* '' */
+.icon-lsi-lock:before { content: '\e821'; } /* '' */
+.icon-lsi-menu:before { content: '\e822'; } /* '' */
+.icon-lsi-moveto:before { content: '\e823'; } /* '' */
+.icon-lsi-new-folder:before { content: '\e824'; } /* '' */
+.icon-lsi-open:before { content: '\e825'; } /* '' */
+.icon-lsi-pages:before { content: '\e826'; } /* '' */
+.icon-lsi-plus-magnify:before { content: '\e827'; } /* '' */
+.icon-lsi-point-select:before { content: '\e828'; } /* '' */
+.icon-lsi-polus:before { content: '\e829'; } /* '' */
+.icon-lsi-publications:before { content: '\e82a'; } /* '' */
+.icon-lsi-quality-check:before { content: '\e82b'; } /* '' */
+.icon-lsi-research-teams:before { content: '\e82c'; } /* '' */
+.icon-lsi-save:before { content: '\e82e'; } /* '' */
+.icon-lsi-search:before { content: '\e82f'; } /* '' */
+.icon-lsi-settings:before { content: '\e830'; } /* '' */
+.icon-lsi-share:before { content: '\e831'; } /* '' */
+.icon-lsi-sort:before { content: '\e832'; } /* '' */
+.icon-lsi-star:before { content: '\e833'; } /* '' */
+.icon-lsi-storage:before { content: '\e834'; } /* '' */
+.icon-lsi-tile-view:before { content: '\e835'; } /* '' */
+.icon-lsi-trash:before { content: '\e836'; } /* '' */
+.icon-lsi-undo:before { content: '\e837'; } /* '' */
+.icon-lsi-upload:before { content: '\e839'; } /* '' */
+.icon-lsi-user:before { content: '\e83a'; } /* '' */
+.icon-lsi-view:before { content: '\e83b'; } /* '' */
