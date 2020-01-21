@@ -1,7 +1,11 @@
 {
   "name": "@labshare/ls-font",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Labshare icons font",
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "semantic-release": "semantic-release"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LabShare/ls-font.git"
@@ -11,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/LabShare/ls-font/issues"
   },
-  "homepage": "https://github.com/LabShare/ls-font#readme"
+  "homepage": "https://github.com/LabShare/ls-font#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@labshare/semantic-release-config": "^1.0.0",
+    "semantic-release": "^15.13.21"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "extends": "@labshare/semantic-release-config"
+  }
 }
