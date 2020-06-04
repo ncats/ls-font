@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'lsfontset';
-  src: url('../font/lsfontset.eot?88025297');
-  src: url('../font/lsfontset.eot?88025297#iefix') format('embedded-opentype'),
-       url('../font/lsfontset.woff2?88025297') format('woff2'),
-       url('../font/lsfontset.woff?88025297') format('woff'),
-       url('../font/lsfontset.ttf?88025297') format('truetype'),
-       url('../font/lsfontset.svg?88025297#lsfontset') format('svg');
+  src: url('../font/lsfontset.eot?96030806');
+  src: url('../font/lsfontset.eot?96030806#iefix') format('embedded-opentype'),
+       url('../font/lsfontset.woff2?96030806') format('woff2'),
+       url('../font/lsfontset.woff?96030806') format('woff'),
+       url('../font/lsfontset.ttf?96030806') format('truetype'),
+       url('../font/lsfontset.svg?96030806#lsfontset') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'lsfontset';
-    src: url('../font/lsfontset.svg?88025297#lsfontset') format('svg');
+    src: url('../font/lsfontset.svg?96030806#lsfontset') format('svg');
   }
 }
 */
@@ -24,7 +24,7 @@
   font-family: "lsfontset";
   font-style: normal;
   font-weight: normal;
-  speak: none;
+  speak: never;
  
   display: inline-block;
   text-decoration: inherit;
@@ -55,62 +55,119 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-lsi-add-drive:before { content: '\e800'; } /* '' */
-.icon-lsi-add-folder:before { content: '\e801'; } /* '' */
-.icon-lsi-add:before { content: '\e802'; } /* '' */
-.icon-lsi-annotate:before { content: '\e803'; } /* '' */
-.icon-lsi-applications:before { content: '\e804'; } /* '' */
-.icon-lsi-auth:before { content: '\e805'; } /* '' */
-.icon-lsi-back-level:before { content: '\e806'; } /* '' */
-.icon-lsi-bell:before { content: '\e807'; } /* '' */
-.icon-lsi-camera:before { content: '\e808'; } /* '' */
-.icon-lsi-data:before { content: '\e809'; } /* '' */
-.icon-lsi-add-new:before { content: '\e80a'; } /* '' */
-.icon-lsi-download-file:before { content: '\e80b'; } /* '' */
-.icon-lsi-edit:before { content: '\e80c'; } /* '' */
-.icon-lsi-ellipsis:before { content: '\e80d'; } /* '' */
-.icon-lsi-excel:before { content: '\e80e'; } /* '' */
-.icon-lsi-expand:before { content: '\e80f'; } /* '' */
-.icon-lsi-export:before { content: '\e810'; } /* '' */
-.icon-lsi-filter:before { content: '\e811'; } /* '' */
-.icon-lsi-folder-upload:before { content: '\e812'; } /* '' */
-.icon-lsi-folder:before { content: '\e813'; } /* '' */
-.icon-lsi-form:before { content: '\e814'; } /* '' */
-.icon-lsi-group-level:before { content: '\e815'; } /* '' */
-.icon-lsi-groups:before { content: '\e816'; } /* '' */
-.icon-lsi-guide:before { content: '\e817'; } /* '' */
-.icon-lsi-hierarchy:before { content: '\e818'; } /* '' */
-.icon-lsi-info:before { content: '\e819'; } /* '' */
-.icon-lsi-instrumentation:before { content: '\e81a'; } /* '' */
-.icon-lsi-key-1:before { content: '\e81b'; } /* '' */
-.icon-lsi-levels:before { content: '\e81c'; } /* '' */
-.icon-lsi-list-filter:before { content: '\e81d'; } /* '' */
-.icon-lsi-list-search:before { content: '\e81e'; } /* '' */
-.icon-lsi-list-view:before { content: '\e81f'; } /* '' */
-.icon-lsi-lists:before { content: '\e820'; } /* '' */
-.icon-lsi-lock:before { content: '\e821'; } /* '' */
-.icon-lsi-menu:before { content: '\e822'; } /* '' */
-.icon-lsi-moveto:before { content: '\e823'; } /* '' */
-.icon-lsi-new-folder:before { content: '\e824'; } /* '' */
-.icon-lsi-open:before { content: '\e825'; } /* '' */
-.icon-lsi-pages:before { content: '\e826'; } /* '' */
-.icon-lsi-plus-magnify:before { content: '\e827'; } /* '' */
-.icon-lsi-point-select:before { content: '\e828'; } /* '' */
-.icon-lsi-polus:before { content: '\e829'; } /* '' */
-.icon-lsi-publications:before { content: '\e82a'; } /* '' */
-.icon-lsi-quality-check:before { content: '\e82b'; } /* '' */
-.icon-lsi-research-teams:before { content: '\e82c'; } /* '' */
-.icon-lsi-save:before { content: '\e82e'; } /* '' */
-.icon-lsi-search:before { content: '\e82f'; } /* '' */
-.icon-lsi-settings:before { content: '\e830'; } /* '' */
-.icon-lsi-share:before { content: '\e831'; } /* '' */
-.icon-lsi-sort:before { content: '\e832'; } /* '' */
-.icon-lsi-star:before { content: '\e833'; } /* '' */
-.icon-lsi-storage:before { content: '\e834'; } /* '' */
-.icon-lsi-tile-view:before { content: '\e835'; } /* '' */
-.icon-lsi-trash:before { content: '\e836'; } /* '' */
-.icon-lsi-undo:before { content: '\e837'; } /* '' */
-.icon-lsi-upload:before { content: '\e839'; } /* '' */
-.icon-lsi-user:before { content: '\e83a'; } /* '' */
-.icon-lsi-view:before { content: '\e83b'; } /* '' */
-.icon-lsi-logo:before { content: '\e83c'; } /* '' */
+.icon-lsi--ellipsis:before { content: '\e800'; } /* '' */
+.icon-lsi-add-drive:before { content: '\e801'; } /* '' */
+.icon-lsi-add-folder:before { content: '\e802'; } /* '' */
+.icon-lsi-add:before { content: '\e803'; } /* '' */
+.icon-lsi-alertnotification:before { content: '\e805'; } /* '' */
+.icon-lsi-annotate-(2):before { content: '\e806'; } /* '' */
+.icon-lsi-annotate:before { content: '\e807'; } /* '' */
+.icon-lsi-applications:before { content: '\e808'; } /* '' */
+.icon-lsi-auth:before { content: '\e809'; } /* '' */
+.icon-lsi-back-level:before { content: '\e80a'; } /* '' */
+.icon-lsi-bell:before { content: '\e80b'; } /* '' */
+.icon-lsi-blankdoc:before { content: '\e80c'; } /* '' */
+.icon-lsi-brokenlink:before { content: '\e80d'; } /* '' */
+.icon-lsi-camera:before { content: '\e80f'; } /* '' */
+.icon-lsi-catalog:before { content: '\e810'; } /* '' */
+.icon-lsi-channel:before { content: '\e811'; } /* '' */
+.icon-lsi-check2:before { content: '\e812'; } /* '' */
+.icon-lsi-code:before { content: '\e813'; } /* '' */
+.icon-lsi-columnview:before { content: '\e814'; } /* '' */
+.icon-lsi-curves:before { content: '\e815'; } /* '' */
+.icon-lsi-data:before { content: '\e817'; } /* '' */
+.icon-lsi-detailtileview:before { content: '\e818'; } /* '' */
+.icon-lsi-doublepannel:before { content: '\e819'; } /* '' */
+.icon-lsi-download-file:before { content: '\e81b'; } /* '' */
+.icon-lsi-download:before { content: '\e81c'; } /* '' */
+.icon-lsi-driver:before { content: '\e81d'; } /* '' */
+.icon-lsi-edit:before { content: '\e81e'; } /* '' */
+.icon-lsi-edit2:before { content: '\e81f'; } /* '' */
+.icon-lsi-ejectrive:before { content: '\e820'; } /* '' */
+.icon-lsi-excel:before { content: '\e822'; } /* '' */
+.icon-lsi-experiment:before { content: '\e823'; } /* '' */
+.icon-lsi-export:before { content: '\e824'; } /* '' */
+.icon-lsi-filter:before { content: '\e825'; } /* '' */
+.icon-lsi-flask:before { content: '\e826'; } /* '' */
+.icon-lsi-folder-upload:before { content: '\e827'; } /* '' */
+.icon-lsi-folder:before { content: '\e828'; } /* '' */
+.icon-lsi-form:before { content: '\e829'; } /* '' */
+.icon-lsi-form3:before { content: '\e82a'; } /* '' */
+.icon-lsi-form4:before { content: '\e82b'; } /* '' */
+.icon-lsi-form5:before { content: '\e82c'; } /* '' */
+.icon-lsi-form6:before { content: '\e82d'; } /* '' */
+.icon-lsi-group-level:before { content: '\e82f'; } /* '' */
+.icon-lsi-groups:before { content: '\e830'; } /* '' */
+.icon-lsi-guide:before { content: '\e831'; } /* '' */
+.icon-lsi-hierarchy:before { content: '\e832'; } /* '' */
+.icon-lsi-imageholder:before { content: '\e833'; } /* '' */
+.icon-lsi-info:before { content: '\e834'; } /* '' */
+.icon-lsi-instrumentation:before { content: '\e835'; } /* '' */
+.icon-lsi-latticegrid:before { content: '\e836'; } /* '' */
+.icon-lsi-levels:before { content: '\e838'; } /* '' */
+.icon-lsi-library:before { content: '\e839'; } /* '' */
+.icon-lsi-link:before { content: '\e83a'; } /* '' */
+.icon-lsi-list-filter:before { content: '\e83b'; } /* '' */
+.icon-lsi-list-search:before { content: '\e83c'; } /* '' */
+.icon-lsi-list-view:before { content: '\e83d'; } /* '' */
+.icon-lsi-lists:before { content: '\e83e'; } /* '' */
+.icon-lsi-lock:before { content: '\e840'; } /* '' */
+.icon-lsi-menu:before { content: '\e841'; } /* '' */
+.icon-lsi-message:before { content: '\e842'; } /* '' */
+.icon-lsi-microscope:before { content: '\e843'; } /* '' */
+.icon-lsi-moveto:before { content: '\e845'; } /* '' */
+.icon-lsi-multiplegears:before { content: '\e846'; } /* '' */
+.icon-lsi-new-folder:before { content: '\e847'; } /* '' */
+.icon-lsi-nih:before { content: '\e848'; } /* '' */
+.icon-lsi-nodetree:before { content: '\e849'; } /* '' */
+.icon-lsi-notebooks:before { content: '\e84a'; } /* '' */
+.icon-lsi-openfolder:before { content: '\e84b'; } /* '' */
+.icon-lsi-pages:before { content: '\e84c'; } /* '' */
+.icon-lsi-pdf:before { content: '\e84d'; } /* '' */
+.icon-lsi-plate:before { content: '\e84e'; } /* '' */
+.icon-lsi-plots:before { content: '\e84f'; } /* '' */
+.icon-lsi-plugins:before { content: '\e850'; } /* '' */
+.icon-lsi-plus-magnify:before { content: '\e851'; } /* '' */
+.icon-lsi-point-select:before { content: '\e852'; } /* '' */
+.icon-lsi-polus:before { content: '\e853'; } /* '' */
+.icon-lsi-powerpoint:before { content: '\e854'; } /* '' */
+.icon-lsi-preview:before { content: '\e855'; } /* '' */
+.icon-lsi-print:before { content: '\e856'; } /* '' */
+.icon-lsi-project:before { content: '\e857'; } /* '' */
+.icon-lsi-publications:before { content: '\e858'; } /* '' */
+.icon-lsi-quality-check:before { content: '\e859'; } /* '' */
+.icon-lsi-readmore:before { content: '\e85a'; } /* '' */
+.icon-lsi-research-teams:before { content: '\e85b'; } /* '' */
+.icon-lsi-sample:before { content: '\e85d'; } /* '' */
+.icon-lsi-save:before { content: '\e85e'; } /* '' */
+.icon-lsi-search:before { content: '\e85f'; } /* '' */
+.icon-lsi-selecter3:before { content: '\e860'; } /* '' */
+.icon-lsi-sendto:before { content: '\e862'; } /* '' */
+.icon-lsi-settings:before { content: '\e864'; } /* '' */
+.icon-lsi-share:before { content: '\e865'; } /* '' */
+.icon-lsi-sort:before { content: '\e867'; } /* '' */
+.icon-lsi-star:before { content: '\e868'; } /* '' */
+.icon-lsi-storage:before { content: '\e869'; } /* '' */
+.icon-lsi-structures:before { content: '\e86a'; } /* '' */
+.icon-lsi-structuresdashboard:before { content: '\e86b'; } /* '' */
+.icon-lsi-tile-view:before { content: '\e86c'; } /* '' */
+.icon-lsi-trash:before { content: '\e86d'; } /* '' */
+.icon-lsi-undo:before { content: '\e86e'; } /* '' */
+.icon-lsi-unlock:before { content: '\e86f'; } /* '' */
+.icon-lsi-upload:before { content: '\e871'; } /* '' */
+.icon-lsi-user:before { content: '\e872'; } /* '' */
+.icon-lsi-view:before { content: '\e873'; } /* '' */
+.icon-lsi-warning:before { content: '\e874'; } /* '' */
+.icon-lsi-add2:before { content: '\e879'; } /* '' */
+.icon-lsi-slide:before { content: '\e87a'; } /* '' */
+.icon-lsi-fov:before { content: '\e87b'; } /* '' */
+.icon-lsi-expand:before { content: '\e87c'; } /* '' */
+.icon-lsi-minus:before { content: '\e87d'; } /* '' */
+.icon-lsi-sessions:before { content: '\e880'; } /* '' */
+.icon-lsi-word_1:before { content: '\e881'; } /* '' */
+.icon-lsi-magnify:before { content: '\e883'; } /* '' */
+.icon-lsi-selectiontool:before { content: '\e884'; } /* '' */
+.icon-lsi-down-arrow:before { content: '\e885'; } /* '' */
+.icon-lsi-left-arrow:before { content: '\e886'; } /* '' */
+.icon-lsi-right-arrow:before { content: '\e887'; } /* '' */
+.icon-lsi-up-arrow:before { content: '\e888'; } /* '' */
