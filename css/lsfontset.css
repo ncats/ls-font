@@ -59,6 +59,7 @@
 .icon-lsi-add-drive:before { content: '\e801'; } /* '' */
 .icon-lsi-add-folder:before { content: '\e802'; } /* '' */
 .icon-lsi-add:before { content: '\e803'; } /* '' */
+.icon-lsi-logo:before { content: '\e804'; } /* '' */
 .icon-lsi-alertnotification:before { content: '\e805'; } /* '' */
 .icon-lsi-annotate-(2):before { content: '\e806'; } /* '' */
 .icon-lsi-annotate:before { content: '\e807'; } /* '' */
@@ -158,6 +159,7 @@
 .icon-lsi-user:before { content: '\e872'; } /* '' */
 .icon-lsi-view:before { content: '\e873'; } /* '' */
 .icon-lsi-warning:before { content: '\e874'; } /* '' */
+.icon-lsi-logo-icon::before { content: '\e875' } /* '' */
 .icon-lsi-add2:before { content: '\e879'; } /* '' */
 .icon-lsi-slide:before { content: '\e87a'; } /* '' */
 .icon-lsi-fov:before { content: '\e87b'; } /* '' */
