@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/LabShare/ls-font/compare/v1.2.0...v1.2.1) (2020-08-03)
+
+
+### Bug Fixes
+
+* exporting lsi-logo in lsfontset css file ([05ed6f0](https://github.com/LabShare/ls-font/commit/05ed6f0a7b7ea6ed08fd41ff91759488f3ece79a))
+
 # [1.2.0](https://github.com/LabShare/ls-font/compare/v1.1.0...v1.2.0) (2020-08-03)
 
 
