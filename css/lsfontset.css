@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'lsfontset';
-  src: url('../font/lsfontset.eot?6621421');
-  src: url('../font/lsfontset.eot?6621421#iefix') format('embedded-opentype'),
-       url('../font/lsfontset.woff2?6621421') format('woff2'),
-       url('../font/lsfontset.woff?6621421') format('woff'),
-       url('../font/lsfontset.ttf?6621421') format('truetype'),
-       url('../font/lsfontset.svg?6621421#lsfontset') format('svg');
+  src: url('../font/lsfontset.eot?72781467');
+  src: url('../font/lsfontset.eot?72781467#iefix') format('embedded-opentype'),
+       url('../font/lsfontset.woff2?72781467') format('woff2'),
+       url('../font/lsfontset.woff?72781467') format('woff'),
+       url('../font/lsfontset.ttf?72781467') format('truetype'),
+       url('../font/lsfontset.svg?72781467#lsfontset') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'lsfontset';
-    src: url('../font/lsfontset.svg?6621421#lsfontset') format('svg');
+    src: url('../font/lsfontset.svg?72781467#lsfontset') format('svg');
   }
 }
 */
@@ -56,9 +56,11 @@
 }
  
 .icon-lsi-3d:before { content: '\e800'; } /* '' */
+.icon-lsi-announce-dashboard:before { content: '\e801'; } /* '' */
 .icon-lsi-add-drive:before { content: '\e802'; } /* '' */
 .icon-lsi-add-folder:before { content: '\e803'; } /* '' */
 .icon-lsi-add:before { content: '\e804'; } /* '' */
+.icon-lsi-project-dashboard:before { content: '\e805'; } /* '' */
 .icon-lsi-alertnotification:before { content: '\e806'; } /* '' */
 .icon-lsi-annotate_1:before { content: '\e807'; } /* '' */
 .icon-lsi-annotate:before { content: '\e808'; } /* '' */
@@ -74,8 +76,11 @@
 .icon-lsi-bug:before { content: '\e812'; } /* '' */
 .icon-lsi-building:before { content: '\e813'; } /* '' */
 .icon-lsi-burrito:before { content: '\e814'; } /* '' */
+.icon-lsi-reservation-dashboard:before { content: '\e815'; } /* '' */
 .icon-lsi-camera:before { content: '\e816'; } /* '' */
+.icon-lsi-reservations:before { content: '\e817'; } /* '' */
 .icon-lsi-case:before { content: '\e818'; } /* '' */
+.icon-lsi-user-dashboard:before { content: '\e819'; } /* '' */
 .icon-lsi-channel:before { content: '\e81a'; } /* '' */
 .icon-lsi-check-fill:before { content: '\e81b'; } /* '' */
 .icon-lsi-check2:before { content: '\e81c'; } /* '' */
