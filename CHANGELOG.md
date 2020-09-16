@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/LabShare/ls-font/compare/v1.5.0...v1.6.0) (2020-09-16)
+
+
+### Features
+
+* close icon ([05c13c7](https://github.com/LabShare/ls-font/commit/05c13c76668dc752e93b44fbfe5d3507bfbfadf1))
+* close icon ([f56b284](https://github.com/LabShare/ls-font/commit/f56b284da281d7bf87493f61a3a1aa0188d45740))
+
 # [1.5.0](https://github.com/LabShare/ls-font/compare/v1.4.0...v1.5.0) (2020-09-03)
 
 
