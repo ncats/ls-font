@@ -1,0 +1,189 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <base href="/" target="_blank">
+    <link rel="stylesheet" href="../css/lsfontset.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <input id="search" class="input-search" type="text" autofocus placeholder="Search" /><br />
+        </div>
+
+        <div id="rules" class="flex-container wrap"></div>
+    </div>
+
+    <div class="popup-back" id="popup-back">
+
+    </div>
+    <div class="popup" id="popup">
+        <span class="preview-icon">
+            <i id="preview-icon"></i>
+        </span>
+        <p class="preview-text">
+            <span id="preview-text"></span>
+        </p>
+        <p class="preview-code code">
+            <span class="c-en">&lt;i</span><span class="c-at"> class=</span><span class="c-va">"<span
+                    id="preview-code">test</span>"</span><span class="c-en">&gt;&lt;i&gt;</span>
+        </p>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript" src="demo.js"></script>
+
+<style>
+    .c-en {
+        color: #2f6f9f;
+    }
+
+    .c-at {
+        color: #4f9fcf;
+    }
+
+    .c-va {
+        color: #d44950;
+    }
+
+
+    body {
+        font-family: "Gill Sans", sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .code {
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        background-color: #f5f5f5;
+        border: 1px solid #eee;
+        border-radius: 4px;
+    }
+
+    .main {
+        margin: auto;
+        width: 60%;
+
+    }
+
+    .header {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .input-search {
+        width: 60%;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        height: 45px;
+        border-color: #999999;
+        border: 2px solid #999999;
+    }
+
+    .flex-container {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+
+    }
+
+    .flex-item {
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .flex-item i {
+        position: relative;
+        top: 40px;
+
+    }
+
+    .flex-item span {
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+
+    .wrap {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .wrap li {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        color: #444444;
+    }
+
+    .wrap li:hover {
+        color: white;
+        background-color: #1fa67a;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .popup-back {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background: rgba(200, 200, 200, 0.7);
+        top: 0;
+        left: 0;
+    }
+
+    .popup {
+        position: fixed;
+        z-index: 20;
+        width: 20%;
+        background: white;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        border-radius: 20px;
+        color: #444444;
+        box-shadow: 0 0 100px -50px black;
+        min-width: 500px;
+        min-height: 300px;
+        padding: 50px;
+        padding-top: 80px;
+        padding-bottom: 0px;
+        margin-top: -250px;
+        margin-left: -300px;
+    }
+
+    .preview-icon {
+        font-size: 4em;
+        border: 2px solid #777776;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .preview-text {
+        font-size: 2em;
+    }
+
+    .preview-code {
+        background-color: #f5f5f5;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        text-align: left;
+        padding: 10px;
+    }
+</style>
