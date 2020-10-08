@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/LabShare/ls-font/compare/v1.6.0...v1.6.1) (2020-10-08)
+
+
+### Bug Fixes
+
+* **cleanup:** removed extra files ([6cf7a00](https://github.com/LabShare/ls-font/commit/6cf7a00a9cbff107bfa9dcc5689e9f329e78c3e3))
+
 # [1.6.0](https://github.com/LabShare/ls-font/compare/v1.5.0...v1.6.0) (2020-09-16)
 
 
