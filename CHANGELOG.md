@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/LabShare/ls-font/compare/v1.6.1...v1.6.2) (2020-10-09)
+
+
+### Bug Fixes
+
+* url ([0673368](https://github.com/LabShare/ls-font/commit/0673368b569dc51b78f555c47a54e4b6c64ea972))
+
 ## [1.6.1](https://github.com/LabShare/ls-font/compare/v1.6.0...v1.6.1) (2020-10-08)
 
 
