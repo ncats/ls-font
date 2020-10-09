@@ -5,4 +5,4 @@
 2. add import to scss file `@import "/node_modules/@labshare/ls-font/css/lsfontset.css";` or to `angular.json`
 
 ## Font Icons
-Find icons [here](https://labshare.github.io/ls-font/)
+Look up icons [here](https://labshare.github.io/ls-font/)
