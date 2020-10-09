@@ -3,6 +3,7 @@ function printRules() {
 
     const prefix = '.icon-lsi-';
     const cleanPrefix = 'icon-lsi-';
+    const postfix = '::before';
     const parent = document.getElementById("rules");
     const searchInput = document.getElementById("search");
     const popup = document.getElementById("popup");
@@ -22,14 +23,13 @@ function printRules() {
 
     hidePopup();
 
-
     const rules = document.styleSheets[0].rules || document.styleSheets[0].cssRules;
     let values = [];
     for (let x = 0; x < rules.length; x++) {
         values.push(rules[x].selectorText);
     }
 
-    values = values.filter(x => x && x.indexOf(prefix) === 0).map(s => s.slice(prefix.length, s.length - 8)).sort();
+    values = values.filter(x => x && x.indexOf(prefix) === 0).map(s => s.slice(prefix.length, s.length - postfix.length)).sort();
 
     const elements = [];
     for (let x = 0; x < values.length; x++) {
