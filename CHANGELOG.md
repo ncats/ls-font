@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/LabShare/ls-font/compare/v1.6.2...v1.6.3) (2020-10-28)
+
+
+### Bug Fixes
+
+* icon sizes ([b3a5b63](https://github.com/LabShare/ls-font/commit/b3a5b63489dbb062ee64e32e8f81ce1a2a84c7f7))
+
 ## [1.6.2](https://github.com/LabShare/ls-font/compare/v1.6.1...v1.6.2) (2020-10-09)
 
 
