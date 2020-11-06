@@ -1,6 +1,6 @@
 {
   "name": "@labshare/ls-font",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Labshare icons font",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",

@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/LabShare/ls-font/compare/v1.7.0...v1.7.1) (2020-11-06)
+
+
+### Bug Fixes
+
+* folder name ([f559539](https://github.com/LabShare/ls-font/commit/f559539bbbac9a0a4c8f038c84666b1a98bf9e41))
+
 # [1.7.0](https://github.com/LabShare/ls-font/compare/v1.6.3...v1.7.0) (2020-11-06)
 
 
