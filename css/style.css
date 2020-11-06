@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'lsfontset';
-  src:  url('fonts/lsfontset.eot?oryigi');
-  src:  url('fonts/lsfontset.eot?oryigi#iefix') format('embedded-opentype'),
-    url('fonts/lsfontset.ttf?oryigi') format('truetype'),
-    url('fonts/lsfontset.woff?oryigi') format('woff'),
-    url('fonts/lsfontset.svg?oryigi#lsfontset') format('svg');
+  src:  url('font/lsfontset.eot?oryigi');
+  src:  url('font/lsfontset.eot?oryigi#iefix') format('embedded-opentype'),
+    url('font/lsfontset.ttf?oryigi') format('truetype'),
+    url('font/lsfontset.woff?oryigi') format('woff'),
+    url('font/lsfontset.svg?oryigi#lsfontset') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
