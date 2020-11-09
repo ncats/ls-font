@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/LabShare/ls-font/compare/v1.7.1...v1.8.0) (2020-11-09)
+
+
+### Features
+
+* **fonts:** new fonts ([7cce1d5](https://github.com/LabShare/ls-font/commit/7cce1d5a03c6ee17a9c2be361d5e19435b671685))
+
 ## [1.7.1](https://github.com/LabShare/ls-font/compare/v1.7.0...v1.7.1) (2020-11-06)
 
 
