@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'lsfontset';
-  src: url('../font/lsfontset.eot?9485469');
-  src: url('../font/lsfontset.eot?9485469#iefix') format('embedded-opentype'),
-       url('../font/lsfontset.woff2?9485469') format('woff2'),
-       url('../font/lsfontset.woff?9485469') format('woff'),
-       url('../font/lsfontset.ttf?9485469') format('truetype'),
-       url('../font/lsfontset.svg?9485469#lsfontset') format('svg');
+  src: url('../font/lsfontset.eot?24074260');
+  src: url('../font/lsfontset.eot?24074260#iefix') format('embedded-opentype'),
+       url('../font/lsfontset.woff2?24074260') format('woff2'),
+       url('../font/lsfontset.woff?24074260') format('woff'),
+       url('../font/lsfontset.ttf?24074260') format('truetype'),
+       url('../font/lsfontset.svg?24074260#lsfontset') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'lsfontset';
-    src: url('../font/lsfontset.svg?9485469#lsfontset') format('svg');
+    src: url('../font/lsfontset.svg?24074260#lsfontset') format('svg');
   }
 }
 */
@@ -55,6 +55,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
+.icon-lsi-data:before { content: '\e800'; } /* '' */
+.icon-lsi-edit:before { content: '\e801'; } /* '' */
 .icon-left-dir:before { content: '\e802'; } /* '' */
 .icon-up-dir:before { content: '\e803'; } /* '' */
 .icon-lsi-3d:before { content: '\e804'; } /* '' */
@@ -96,7 +98,6 @@
 .icon-lsi-coma:before { content: '\e828'; } /* '' */
 .icon-lsi-comment:before { content: '\e829'; } /* '' */
 .icon-lsi-compare:before { content: '\e82a'; } /* '' */
-.icon-lsi-data:before { content: '\e82a'; } /* '' */
 .icon-lsi-curves:before { content: '\e82b'; } /* '' */
 .icon-lsi-detail-view:before { content: '\e82c'; } /* '' */
 .icon-lsi-deep-zoom:before { content: '\e82d'; } /* '' */
@@ -106,7 +107,6 @@
 .icon-lsi-download-file:before { content: '\e831'; } /* '' */
 .icon-lsi-download:before { content: '\e832'; } /* '' */
 .icon-lsi-driver:before { content: '\e833'; } /* '' */
-.icon-lsi-edit:before { content: '\e833'; } /* '' */
 .icon-lsi-eject-drive:before { content: '\e834'; } /* '' */
 .icon-lsi-edit2:before { content: '\e835'; } /* '' */
 .icon-lsi-excel:before { content: '\e836'; } /* '' */
@@ -143,6 +143,7 @@
 .icon-lsi-info:before { content: '\e855'; } /* '' */
 .icon-lsi-instrumentation:before { content: '\e856'; } /* '' */
 .icon-lsi-latticegrid:before { content: '\e857'; } /* '' */
+.icon-lsi-view:before { content: '\e858'; } /* '' */
 .icon-lsi-levels:before { content: '\e859'; } /* '' */
 .icon-lsi-library:before { content: '\e85a'; } /* '' */
 .icon-lsi-line-box:before { content: '\e85b'; } /* '' */
@@ -200,6 +201,7 @@
 .icon-lsi-reservation-dashboard:before { content: '\e88f'; } /* '' */
 .icon-lsi-reservations:before { content: '\e890'; } /* '' */
 .icon-lsi-reserve:before { content: '\e891'; } /* '' */
+.icon-lsi-arrow-forward:before { content: '\e892'; } /* '' */
 .icon-lsi-round-flask:before { content: '\e893'; } /* '' */
 .icon-lsi-ruler:before { content: '\e894'; } /* '' */
 .icon-lsi-sample:before { content: '\e895'; } /* '' */
@@ -232,18 +234,21 @@
 .icon-lsi-trash:before { content: '\e8b0'; } /* '' */
 .icon-lsi-undo:before { content: '\e8b1'; } /* '' */
 .icon-lsi-unlock:before { content: '\e8b2'; } /* '' */
+.icon-lsi-arrow-upward:before { content: '\e8b3'; } /* '' */
 .icon-lsi-upload:before { content: '\e8b4'; } /* '' */
 .icon-lsi-user-dashboard:before { content: '\e8b5'; } /* '' */
 .icon-lsi-user-list:before { content: '\e8b6'; } /* '' */
 .icon-lsi-user:before { content: '\e8b7'; } /* '' */
 .icon-lsi-video:before { content: '\e8b8'; } /* '' */
 .icon-lsi-view-team:before { content: '\e8b9'; } /* '' */
-.icon-lsi-view:before { content: '\e8ba'; } /* '' */
+.icon-lsi-back-bold:before { content: '\e8ba'; } /* '' */
 .icon-lsi-wand:before { content: '\e8bb'; } /* '' */
 .icon-lsi-warning:before { content: '\e8bc'; } /* '' */
 .icon-lsi-word:before { content: '\e8bd'; } /* '' */
 .icon-lsi-workflow:before { content: '\e8be'; } /* '' */
 .icon-lsi-z-depth:before { content: '\e8bf'; } /* '' */
+.icon-lsi-arrow-back:before { content: '\e8c2'; } /* '' */
+.icon-lsi-arrow-downward:before { content: '\e8c3'; } /* '' */
 .icon-lsi-ellipsis-vert:before { content: '\e8c4'; } /* '' */
 .icon-lsi-ellipsis:before { content: '\e8c5'; } /* '' */
 .icon-lsi-down-arrow:before { content: '\e8c6'; } /* '' */
