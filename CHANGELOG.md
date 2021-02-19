@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/LabShare/ls-font/compare/v1.9.0...v1.10.0) (2021-02-19)
+
+
+### Features
+
+* new icons ([ae8ab0c](https://github.com/LabShare/ls-font/commit/ae8ab0cf1bdf79a7e39c399b3d7e666f3e9ea94a))
+
 # [1.9.0](https://github.com/LabShare/ls-font/compare/v1.8.0...v1.9.0) (2021-01-04)
 
 
