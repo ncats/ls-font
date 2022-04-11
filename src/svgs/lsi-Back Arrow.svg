@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Back_Arrow" data-name="Back Arrow" transform="translate(24 24) rotate(180)">
+    <g id="invisible_box" data-name="invisible box">
+      <rect id="Rectangle_16234" data-name="Rectangle 16234" width="24" height="24" fill="none"/>
+    </g>
+    <g id="Q3_icons" data-name="Q3 icons" transform="translate(4.5 5.001)">
+      <path id="Path_12557" data-name="Path 12557" d="M17.75,23.7l5.95-6a.95.95,0,0,0,0-1.4l-5.95-6a1.05,1.05,0,0,0-1.35-.1.95.95,0,0,0-.1,1.5L20.6,16H10a1,1,0,0,0,0,2H20.6l-4.3,4.3a.95.95,0,0,0,.1,1.5,1.05,1.05,0,0,0,1.35-.1Z" transform="translate(-9 -10.001)" fill="#662e6b"/>
+    </g>
+  </g>
+</svg>

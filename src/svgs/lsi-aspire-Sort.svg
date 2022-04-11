@@ -1,0 +1,17 @@
+<svg id="Sort" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_17492" data-name="Rectangle 17492" width="24" height="24" fill="none"/>
+  <g id="Group_18639" data-name="Group 18639" transform="translate(5 3)">
+    <g id="Group_18635" data-name="Group 18635">
+      <g id="Group_17354" data-name="Group 17354" transform="translate(5.992 17.315) rotate(180)">
+        <path id="Path_17962" data-name="Path 17962" d="M0,0V13.32" transform="translate(2.996)" fill="#662e6b" stroke="#662e6b" stroke-width="2"/>
+        <path id="Polygon_37" data-name="Polygon 37" d="M3,0,6,4H0Z" transform="translate(5.992 17.315) rotate(180)" fill="#662e6b"/>
+      </g>
+    </g>
+    <g id="Group_18638" data-name="Group 18638" transform="translate(13.992 17.313) rotate(180)">
+      <g id="Group_17354-2" data-name="Group 17354" transform="translate(5.992 17.313) rotate(180)">
+        <path id="Path_17962-2" data-name="Path 17962" d="M0,0V13.32" transform="translate(2.996)" fill="#662e6b" stroke="#662e6b" stroke-width="2"/>
+        <path id="Polygon_37-2" data-name="Polygon 37" d="M3,0l3,3.995H0Z" transform="translate(5.992 17.313) rotate(180)" fill="#662e6b"/>
+      </g>
+    </g>
+  </g>
+</svg>

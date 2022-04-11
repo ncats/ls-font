@@ -1,0 +1,11 @@
+<svg id="Check_In" data-name="Check In" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_17520" data-name="Rectangle 17520" width="24" height="24" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(3.5 2)">
+    <g id="Group_18744" data-name="Group 18744">
+      <path id="Path_18000" data-name="Path 18000" d="M38,4a1,1,0,0,0-1,1V23a1,1,0,0,0,2,0V5A1,1,0,0,0,38,4Z" transform="translate(-22 -4)" fill="#662e6b"/>
+      <path id="Path_18001" data-name="Path 18001" d="M14.75,12.3a1.05,1.05,0,0,0-1.35-.1.95.95,0,0,0-.1,1.5L16.6,17H8a1,1,0,0,0,0,2h8.6l-3.3,3.3a.95.95,0,0,0,.1,1.5,1.05,1.05,0,0,0,1.35-.1l4.95-5a.95.95,0,0,0,0-1.4Z" transform="translate(-7 -8.001)" fill="#662e6b"/>
+    </g>
+  </g>
+</svg>
