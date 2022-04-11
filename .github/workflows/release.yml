@@ -1,12 +1,13 @@
 name: Release
+
 on:
-  pull_request:
+  push:
     branches:
       - master
-    types: [closed]
+      
 jobs:
   release:
-    if: github.event.pull_request.merged == true
+    name: Release
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
