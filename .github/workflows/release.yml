@@ -1,0 +1,45 @@
+name: Release
+on:
+  pull_request:
+    branches:
+      - master
+    types: [closed]
+jobs:
+  release:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          ref: master
+
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name 'LabShare'
+          git config --global user.email 'LabShare@labshare.org'
+          git remote set-url origin https://$GITHUB_ACTOR:$GH_TOKEN@github.com/LabShare/ls-font
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          always-auth: true
+          registry-url: https://registry.npmjs.org
+
+      - name: Install dependencies
+        run: npm i -g lerna && npm ci --no-optional
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
+
+      - name: Release
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm run build
+          npm run semantic-release
