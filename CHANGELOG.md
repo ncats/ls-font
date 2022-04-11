@@ -1,3 +1,26 @@
+# [1.11.0](https://github.com/LabShare/ls-font/compare/v1.10.0...v1.11.0) (2022-04-11)
+
+
+### Bug Fixes
+
+* build script ([1893b22](https://github.com/LabShare/ls-font/commit/1893b22961d79538ea93cd14caa55d4c746e391f))
+* config ([3b0dfda](https://github.com/LabShare/ls-font/commit/3b0dfdabaece1c08866382456058ca0af5c81e03))
+* dep ([f474173](https://github.com/LabShare/ls-font/commit/f474173f071319d4dca0351a5f0625493439295f))
+* deployment ([686f249](https://github.com/LabShare/ls-font/commit/686f249c9c61ff5fb5210d773e6ecf8efd8e373f))
+* new pipeline ([46b23b5](https://github.com/LabShare/ls-font/commit/46b23b573902e5eaa77c7a0987d38c251c8173a4))
+* script deployment ([9422828](https://github.com/LabShare/ls-font/commit/9422828fd1d16d1a56816061cb824aeafd9f7521))
+* script deployment ([8357f1e](https://github.com/LabShare/ls-font/commit/8357f1ee822d5eb0f4683a6ce75e1d4268c436bf))
+* workflow ([df6445d](https://github.com/LabShare/ls-font/commit/df6445dce2d199aca6304c300d5664cd1803c187))
+* workflow ([fb5d52c](https://github.com/LabShare/ls-font/commit/fb5d52cb6b18b73e702afb40cd8b71ac3d847d22))
+
+
+### Features
+
+* new fonts ([a7501ee](https://github.com/LabShare/ls-font/commit/a7501ee04046825ee83ccc123ab2c0167ddde10c))
+* new icon ([e67341e](https://github.com/LabShare/ls-font/commit/e67341e3d4742a136ddd903d5c3e9a78672308cb))
+* new icons ([f385676](https://github.com/LabShare/ls-font/commit/f385676aa341601f81a9da739b3f37eeac4e362d))
+* update action ([5e1944f](https://github.com/LabShare/ls-font/commit/5e1944fd77b5f6cc82c4f5dfabf52aeb91b074ec))
+
 # [1.10.0](https://github.com/LabShare/ls-font/compare/v1.9.0...v1.10.0) (2021-02-19)
 
 
