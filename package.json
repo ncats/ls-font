@@ -4,7 +4,8 @@
   "description": "Labshare icons font",
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "build": "mkdir dist && cp -r css dist/css && cp -r font dist/font && cp -r LICENSE dist/LICENSE && cp -r README.md dist/README.md"
   },
   "repository": {
     "type": "git",
@@ -19,13 +20,38 @@
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
-    "@labshare/semantic-release-config": "^1.0.0",
     "semantic-release": "^15.13.21"
   },
   "publishConfig": {
     "access": "restricted"
   },
   "release": {
-    "extends": "@labshare/semantic-release-config"
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "pkgRoot": "dist"
+        }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "npm run build"
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ]
+        }
+      ]
+    ]
   }
 }
