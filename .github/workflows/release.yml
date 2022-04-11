@@ -34,7 +34,7 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Install dependencies
-        run: npm i -g lerna && npm ci --no-optional
+        run: npm i -g semantic-release && npm ci --no-optional
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
 
