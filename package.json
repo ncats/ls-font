@@ -39,12 +39,7 @@
           "pkgRoot": "dist"
         }
       ],
-      [
-        "@semantic-release/exec",
-        {
-          "prepareCmd": "npm run build"
-        }
-      ],
+      "@semantic-release/exec",
       "@semantic-release/github",
       [
         "@semantic-release/git",
