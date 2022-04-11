@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Work_Bench" data-name="Work Bench" transform="translate(8534 22873)">
+    <rect id="Rectangle_17559" data-name="Rectangle 17559" width="24" height="24" transform="translate(-8534 -22873)" fill="none"/>
+    <path id="Rectangle_17560" data-name="Rectangle 17560" d="M2,1.5a.5.5,0,0,0-.5.5V3a.5.5,0,0,0,.5.5H18a.5.5,0,0,0,.5-.5V2a.5.5,0,0,0-.5-.5H2M2,0H18a2,2,0,0,1,2,2V3a2,2,0,0,1-2,2H2A2,2,0,0,1,0,3V2A2,2,0,0,1,2,0Z" transform="translate(-8532 -22871)" fill="#662e6b"/>
+    <path id="Line_915" data-name="Line 915" d="M4.5.6H0A.6.6,0,0,1-.6,0,.6.6,0,0,1,0-.6H4.5a.6.6,0,0,1,.6.6A.6.6,0,0,1,4.5.6Z" transform="translate(-8524.25 -22864.1)" fill="#662e6b"/>
+    <path id="Line_914" data-name="Line 914" d="M16.141.75H0V-.75H16.141Z" transform="translate(-8530.07 -22855)" fill="#662e6b"/>
+    <path id="Line_918" data-name="Line 918" d="M16.141.75H0V-.75H16.141Z" transform="translate(-8530.07 -22858.875)" fill="#662e6b"/>
+    <path id="Line_916" data-name="Line 916" d="M.75,15.252H-.75V0H.75Z" transform="translate(-8529.5 -22866.5)" fill="#662e6b"/>
+    <path id="Line_917" data-name="Line 917" d="M.75,15.252H-.75V0H.75Z" transform="translate(-8514.5 -22866.5)" fill="#662e6b"/>
+  </g>
+</svg>

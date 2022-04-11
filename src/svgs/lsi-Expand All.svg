@@ -1,0 +1,9 @@
+<svg id="Expand_All" data-name="Expand All" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_16235" data-name="Rectangle 16235" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Q3_icons" data-name="Q3 icons" transform="translate(5.001 1.992)">
+    <path id="Path_12558" data-name="Path 12558" d="M17,33.58l-5.3-5.3a.95.95,0,0,0-1.5.1,1.05,1.05,0,0,0,.1,1.35l6,5.95a.95.95,0,0,0,1.4,0l6-5.95a1.05,1.05,0,0,0,.1-1.35.95.95,0,0,0-1.5-.1Z" transform="translate(-10.001 -15.972)" fill="#662e6b"/>
+    <path id="Path_12559" data-name="Path 12559" d="M17,6.392l5.3,5.3a.95.95,0,0,0,1.5-.1,1.05,1.05,0,0,0-.1-1.35l-6-5.95a.95.95,0,0,0-1.4,0l-6,5.95a1.05,1.05,0,0,0-.1,1.35.95.95,0,0,0,1.5.1Z" transform="translate(-10.001 -3.985)" fill="#662e6b"/>
+  </g>
+</svg>

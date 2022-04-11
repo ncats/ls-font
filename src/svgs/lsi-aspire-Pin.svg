@@ -1,0 +1,11 @@
+<svg id="Pin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_17590" data-name="Rectangle 17590" width="24" height="24" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="matrix(0.966, 0.259, -0.259, 0.966, 8.794, 0.772)">
+    <g id="Group_18876" data-name="Group 18876">
+      <path id="Path_18063" data-name="Path 18063" d="M24,9.984a6,6,0,1,0-7,5.9v7.1a1,1,0,0,0,2,0v-7.1a5.95,5.95,0,0,0,5-5.9Zm-6,4a4,4,0,1,1,4-4A4,4,0,0,1,18,13.984Z" transform="translate(-11.999 -3.968)" fill="#662e6b"/>
+      <circle id="Ellipse_1415" data-name="Ellipse 1415" cx="2" cy="2" r="2" transform="translate(4 4.016)" fill="#662e6b"/>
+    </g>
+  </g>
+</svg>

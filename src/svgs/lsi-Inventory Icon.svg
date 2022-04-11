@@ -1,0 +1,12 @@
+<svg id="Inventory_Icon" data-name="Inventory Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_17511" data-name="Rectangle 17511" width="24" height="24" fill="none"/>
+    <rect id="Rectangle_17512" data-name="Rectangle 17512" width="24" height="24" fill="none"/>
+    <rect id="Rectangle_17513" data-name="Rectangle 17513" width="24" height="24" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(0.9 2.5)">
+    <path id="Path_17982" data-name="Path 17982" d="M23.55,10.05,12.9,6,2.25,10.05a.45.45,0,0,0,0,.9L12.9,15l10.65-4.05a.45.45,0,1,0,0-.9ZM12.9,12.85,6.65,10.5,12.9,8.15l6.25,2.35Z" transform="translate(-1.8 -6)" fill="#662e6b"/>
+    <path id="Path_17983" data-name="Path 17983" d="M22.637,22.037l-9.65,3.8-9.65-3.8a1.012,1.012,0,1,0-.7,1.9l10.35,4.05,10.35-4.05a1.012,1.012,0,1,0-.7-1.9Z" transform="translate(-1.887 -13.987)" fill="#662e6b"/>
+    <path id="Path_17984" data-name="Path 17984" d="M22.637,32.037l-9.65,3.8-9.65-3.8a1.012,1.012,0,1,0-.7,1.9l10.35,4.05,10.35-4.05a1.012,1.012,0,1,0-.7-1.9Z" transform="translate(-1.887 -18.987)" fill="#662e6b"/>
+  </g>
+</svg>

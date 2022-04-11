@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Fridge" transform="translate(8573 22873)">
+    <g id="Group_18797" data-name="Group 18797">
+      <rect id="Rectangle_17557" data-name="Rectangle 17557" width="24" height="24" transform="translate(-8573 -22873)" fill="none"/>
+      <path id="Rectangle_17558" data-name="Rectangle 17558" d="M2,1.5a.5.5,0,0,0-.5.5V18a.5.5,0,0,0,.5.5H18a.5.5,0,0,0,.5-.5V2a.5.5,0,0,0-.5-.5H2M2,0H18a2,2,0,0,1,2,2V18a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(-8571 -22871)" fill="#662e6b"/>
+      <path id="Line_912" data-name="Line 912" d="M4.5.6H0A.6.6,0,0,1-.6,0,.6.6,0,0,1,0-.6H4.5a.6.6,0,0,1,.6.6A.6.6,0,0,1,4.5.6Z" transform="translate(-8563.25 -22863.801)" fill="#662e6b"/>
+      <path id="Line_913" data-name="Line 913" d="M17,.75H0V-.75H17Z" transform="translate(-8569.5 -22866.5)" fill="#662e6b"/>
+    </g>
+  </g>
+</svg>
