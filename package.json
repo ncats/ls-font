@@ -5,7 +5,7 @@
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "semantic-release": "semantic-release",
-    "build": "mkdir dist && cp -r css dist/css && cp -r font dist/font && cp -r LICENSE dist/LICENSE && cp -r README.md dist/README.md"
+    "build": "mkdir dist && cp -r css dist/css && cp -r font dist/font && cp -r LICENSE dist/LICENSE && cp -r README.md dist/README.md && cp -r package.json dist/package.json"
   },
   "repository": {
     "type": "git",
