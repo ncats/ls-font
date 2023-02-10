@@ -1,7 +1,7 @@
 # Labshare Icons font
 
 ## DEMO
-[here](https://labshare.github.io/ls-font/)
+[here](https://ncats.github.io/ls-font/)
 
 ## How to use
 1. install `npm i --save @labshare/ls-font`
