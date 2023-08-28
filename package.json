@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/LabShare/ls-font#readme",
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^21.0.1"
   },
   "publishConfig": {
     "access": "restricted"
